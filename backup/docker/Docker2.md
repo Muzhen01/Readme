@@ -16,7 +16,7 @@
 	sudo systemctl enable docker 
 注①：此处强烈建议顺便安装`Portainer`(一款可视化容器管理工具)如果你不清楚什么是`Portainer`，那么我建议你回看阅读须知第一条
 
-![image](https://github.com/muzhen1/readme/blob/main/backup/docker/Portainer.png)
+![image](https://github.com/Muzhen01/Readme/blob/main/backup/docker/Portainer.png)
 
 2.既然是0基础那么你肯定是第一次安装docker，所以这一步你并不需要清除原有的容器，如果你之前有在用容器，那么建议你安装`Portainer`手动删除容器以及镜像重新拉取安装
 
@@ -68,7 +68,7 @@
 ### 注意：
 1. 请在创建后使用`docker logs -f jd`查看创建日志，直到出现容器启动成功…字样才代表启动成功（不是以此结束的请更新镜像），按`Ctrl+C`退出查看日志。
 
-   ![image](https://github.com/muzhen1/readme/blob/main/backup/docker/success.png)
+   ![image](https://github.com/Muzhen01/Readme/blob/main/backup/docker/success.png)
 
 2. 访问 `http://<ip>:5678` （ip是指你Docker宿主机的局域网ip），初始用户名： `admin` ，初始密码： `shuye72` ，请登陆后务必修改密码，并在线编辑`config.sh` 和 `crontab.list` ，其中 `config.sh` 可以对比修改，如何修改请仔细阅读各文件注释。如未启用控制面板自动启动功能，请运行 `docker exec -it jd node /jd/panel/server.js` 来启动，使用完控制面板后Ctrl+C 即可结束进程。如无法访问，请从防火墙、端口转发、网络方面着手解决。实在无法访问，就使用winscp工具sftp连接进行修改。
 

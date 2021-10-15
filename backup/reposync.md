@@ -23,7 +23,7 @@
 
 <img src="assets/set_up_workflow.png" alt="set_up_workflow" style="zoom:75%;" />
 
-复制https://ghproxy.com/https://raw.githubusercontent.com/wuzhi04/MyActions/main/.github/workflows/repo-sync.yml 里面的代码
+复制https://ghproxy.com/https://raw.githubusercontent.com/wuzhi05/MyActions/main/.github/workflows/repo-sync.yml 里面的代码
 
 复制完毕后直接点击右上角的`Start commit`后直接`Commit new file`即可
 

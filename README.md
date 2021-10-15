@@ -7,7 +7,7 @@
 3. 多条 cookie 用`&`隔开，支持无数条 cookie
 4. 前三步之后，点击一下右上角的 star（fork 左边那个），让 workflow 运行一次。
 
-喜马拉雅极速版专属环境变量[点击查看](backup/xmly/xmly.md)
+
 
 lxk0301-环境变量合集（Secrets）配置[点击查看](backup/githubAction.md)
 
